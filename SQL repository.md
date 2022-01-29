@@ -51,10 +51,3 @@ select regexp_replace(to_date(from_unixtime(unix_timestamp({your_col}))),'-','')
 select date_format(date({your_col}),'%y%m%d')
 --> 20200320
 ```
-
-This is so interesting MD
-<textarea border-style:dotted="border-style:dotted" class="markdown" disabled="disabled">
-# test1
-</textarea>
-
-
